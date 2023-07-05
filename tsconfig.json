@@ -1,0 +1,19 @@
+{
+    "include": [
+        "./**/*",
+        "./**/*.json",
+        "../fixme.d.ts",
+        "../jestMatchers.d.ts",
+        "../lib.es.extension.d.ts"
+    ],
+    "exclude": ["package.json", "package-lock.json", "forge.config.ts"],
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+        "module": "CommonJS",
+        "target": "ES2017",
+        "rootDir": "..",
+        "outDir": "../../build/desktop",
+        "incremental": true,
+        "sourceMap": false
+    }
+}

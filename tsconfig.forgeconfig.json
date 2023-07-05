@@ -1,0 +1,12 @@
+{
+    "files": ["forge.config.ts"],
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2017",
+        "moduleResolution": "node",
+        "skipLibCheck": true,
+        "outDir": "../../build/desktop",
+        "rootDir": "..",
+        "sourceMap": false
+    }
+}

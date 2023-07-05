@@ -1,0 +1,31 @@
+<!-----------------------------------------------------------------------------
+
+ darkModePlaceholder.html
+
+ A placeholder page we load in new tabs when we're running in dark mode to
+ prevent a white flash. The underlying issue is that Chromium resets the
+ renderer on each new tab's first load which means it always renders a white
+ box. That's very jarring in dark mode. We could wait until the actual page
+ is loaded to show the tab but that can take a long time. Instead we load
+ this placeholder (which is relatively quick) and load the actual page
+ immediately after. Not ideal but better than the alternatives
+
+------------------------------------------------------------------------------>
+
+<html>
+<head>
+  <meta charset="UTF-8" />
+
+  <style>
+    html,
+    body {
+      background: rgba(25, 25, 25, 1); /* accentColors.dark.gray[50] */
+      padding: 0;
+      margin: 0;
+    }
+  </style>
+</head>
+
+<body>
+</body>
+</html>

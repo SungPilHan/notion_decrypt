@@ -1,0 +1,25 @@
+{
+    "include": [
+        "./**/*",
+        "./**/*.json",
+        "../fixme.d.ts",
+        "../jestMatchers.d.ts",
+        "../lib.es.extension.d.ts"
+    ],
+    "compilerOptions": {
+        "composite": true,
+        "outDir": "../../build/tsc/desktop",
+        "incremental": true,
+        "rootDir": ".",
+        "noEmit": false
+    },
+    "extends": "./tsconfig.json",
+    "references": [
+        {
+            "path": "../shared/tsconfig.build.json"
+        },
+        {
+            "path": "../test-framework/tsconfig.build.json"
+        }
+    ]
+}

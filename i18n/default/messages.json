@@ -1,0 +1,301 @@
+{
+    "desktop.tabBar.backButtonLabel": {
+        "notes": "Label for the button that goes back in the tab bar",
+        "translation": "Back"
+    },
+    "desktop.tabBar.closeSidebarLabel": {
+        "notes": "Label for the button that closes the sidebar in the tab bar",
+        "translation": "Close Sidebar"
+    },
+    "desktop.tabBar.closeTabLabel": {
+        "notes": "Label for the button that closes a tab in the tab bar, followed by the tab title",
+        "translation": "Close Tab, {tabTitle}"
+    },
+    "desktop.tabBar.forwardButtonLabel": {
+        "notes": "Label for the button that goes forward in the tab bar",
+        "translation": "Forward"
+    },
+    "desktop.tabBar.loadingPlaceholder": {
+        "notes": "Placeholder message displayed in the tab title while we're fetching the actual title",
+        "translation": "Loading..."
+    },
+    "desktop.tabBar.newTabButtonLabel": {
+        "notes": "Label for the button that opens a new tab in the tab bar",
+        "translation": "New Tab"
+    },
+    "desktop.tabBar.openSidebarLabel": {
+        "notes": "Label for the button that opens the sidebar in the tab bar",
+        "translation": "Open Sidebar"
+    },
+    "desktopInstaller.failedToMove.detail": {
+        "notes": "Text of the dialog shown when we failed to move the app to the Applications folder",
+        "translation": "We failed to move the app to your Applications folder. Please move it manually."
+    },
+    "desktopInstaller.failedToMove.title": {
+        "notes": "Title of the dialog shown when we failed to move the app to the Applications folder",
+        "translation": "Failed to move app"
+    },
+    "desktopInstaller.invalidInstallDialog.cancelButton.label": {
+        "notes": "Label of the Cancel button in the dialog shown when the app is not installed properly",
+        "translation": "Cancel"
+    },
+    "desktopInstaller.invalidInstallDialog.confirmMove": {
+        "notes": "Text of the dialog shown when the app is not installed properly",
+        "translation": "Your Notion application is not installed properly. Can we move your Notion app into your Applications folder?"
+    },
+    "desktopInstaller.invalidInstallDialog.okButton.label": {
+        "notes": "Label of the OK button in the dialog shown when the app is not installed properly",
+        "translation": "OK"
+    },
+    "desktopInstaller.invalidInstallDialog.title": {
+        "notes": "Title of the dialog shown when the app is not installed properly",
+        "translation": "Invalid Install"
+    },
+    "desktopSearch.doneButton.label": {
+        "translation": "Done"
+    },
+    "desktopSearch.foundMatches.message": {
+        "translation": "{matchCount, plural, one {{matchCount} match} other {{matchCount} matches}}"
+    },
+    "desktopSearch.noResults.message": {
+        "translation": "Not found"
+    },
+    "desktopTopbar.appMenu.about": {
+        "translation": "About Notion"
+    },
+    "desktopTopbar.appMenu.hide": {
+        "translation": "Hide Notion"
+    },
+    "desktopTopbar.appMenu.hideOthers": {
+        "translation": "Hide Others"
+    },
+    "desktopTopbar.appMenu.preferences": {
+        "notes": "Standard macOS 'Preferences' menu. The ellipsis should be the Unicode U+2026 and not three periods. Ideally, if you have access to a Mac, this word should match what is present in the menu of other apps.",
+        "translation": "Preferences…"
+    },
+    "desktopTopbar.appMenu.quit": {
+        "translation": "Quit"
+    },
+    "desktopTopbar.appMenu.resetAndEraseAllLocalData": {
+        "notes": "Button that completely resets the app, as if it were just installed.",
+        "translation": "Reset & Erase All Local Data"
+    },
+    "desktopTopbar.appMenu.resetAndUpdateApp": {
+        "notes": "Button that refreshes all windows and updates the app to the latest version.",
+        "translation": "Reset & Update App"
+    },
+    "desktopTopbar.appMenu.services": {
+        "translation": "Services"
+    },
+    "desktopTopbar.appMenu.unhide": {
+        "translation": "Show All"
+    },
+    "desktopTopbar.editMenu.copy": {
+        "translation": "Copy"
+    },
+    "desktopTopbar.editMenu.cut": {
+        "translation": "Cut"
+    },
+    "desktopTopbar.editMenu.paste": {
+        "translation": "Paste"
+    },
+    "desktopTopbar.editMenu.pasteAndMatchStyle": {
+        "translation": "Paste and Match Style"
+    },
+    "desktopTopbar.editMenu.redo": {
+        "translation": "Redo"
+    },
+    "desktopTopbar.editMenu.selectAll": {
+        "translation": "Select All"
+    },
+    "desktopTopbar.editMenu.speech": {
+        "translation": "Speech"
+    },
+    "desktopTopbar.editMenu.speech.startSpeaking": {
+        "translation": "Start Speaking"
+    },
+    "desktopTopbar.editMenu.speech.stopSpeaking": {
+        "translation": "Stop Speaking"
+    },
+    "desktopTopbar.editMenu.title": {
+        "translation": "Edit"
+    },
+    "desktopTopbar.editMenu.undo": {
+        "translation": "Undo"
+    },
+    "desktopTopbar.fileMenu.close": {
+        "translation": "Close Window"
+    },
+    "desktopTopbar.fileMenu.closeTab": {
+        "notes": "Menu item for closing the current tab in the current window",
+        "translation": "Close Tab"
+    },
+    "desktopTopbar.fileMenu.newTab": {
+        "notes": "Menu item for opening a new tab in the current window",
+        "translation": "New Tab"
+    },
+    "desktopTopbar.fileMenu.newWindow": {
+        "translation": "New Window"
+    },
+    "desktopTopbar.fileMenu.quit": {
+        "translation": "Exit"
+    },
+    "desktopTopbar.fileMenu.title": {
+        "translation": "File"
+    },
+    "desktopTopbar.helpMenu.openHelpAndSupport": {
+        "translation": "Open help & documentation"
+    },
+    "desktopTopbar.helpMenu.recordPerformanceTrace": {
+        "notes": "Used as the label for a button that triggers a performance trace recording",
+        "translation": "Record performance trace"
+    },
+    "desktopTopbar.helpMenu.recordPerformanceTraceConfirm": {
+        "notes": "Label for the text field in a confirmation dialog that triggers a performance trace recording",
+        "translation": "Do you want to record a performance trace for the next 30 seconds? Once done, it will be placed in your Downloads folder."
+    },
+    "desktopTopbar.helpMenu.recordPerformanceTraceConfirmCancel": {
+        "notes": "Label for the 'cancel' button in a confirmation dialog that triggers a performance trace recording",
+        "translation": "Cancel"
+    },
+    "desktopTopbar.helpMenu.recordPerformanceTraceConfirmOk": {
+        "notes": "Label for the 'ok' button in a confirmation dialog that triggers a performance trace recording",
+        "translation": "Record performance trace"
+    },
+    "desktopTopbar.helpMenu.recordPerformanceTraceConfirmTitle": {
+        "notes": "Label for the title field in a confirmation dialog that triggers a performance trace recording",
+        "translation": "Record a performance trace?"
+    },
+    "desktopTopbar.helpMenu.showLogsInExplorer": {
+        "notes": "Used as the label for a button that shows the logs in Windows Explorer",
+        "translation": "Show logs in Explorer"
+    },
+    "desktopTopbar.helpMenu.showLogsInFinder": {
+        "notes": "Used as the label for a button that shows the logs in macOS Finder",
+        "translation": "Show logs in Finder"
+    },
+    "desktopTopbar.helpMenu.title": {
+        "translation": "Help"
+    },
+    "desktopTopbar.historyMenu.historyBack": {
+        "notes": "Move back one page (similar to the back button in a browser)",
+        "translation": "Back"
+    },
+    "desktopTopbar.historyMenu.historyForward": {
+        "notes": "Move forward one page (similar to the forward button in a browser)",
+        "translation": "Forward"
+    },
+    "desktopTopbar.historyMenu.title": {
+        "notes": "Menu for navigating the history of Notion documents",
+        "translation": "History"
+    },
+    "desktopTopbar.toggleDevTools": {
+        "translation": "Toggle Developer Tools"
+    },
+    "desktopTopbar.toggleWindowDevTools": {
+        "translation": "Toggle Window Developer Tools"
+    },
+    "desktopTopbar.troubleshootingMenu.title": {
+        "notes": "The title of the menu that contains troubleshooting options",
+        "translation": "Troubleshooting"
+    },
+    "desktopTopbar.viewMenu.reload": {
+        "translation": "Reload"
+    },
+    "desktopTopbar.viewMenu.reloadAllTabs": {
+        "notes": "Menu item to let the user reload all of their tabs and not just the current one",
+        "translation": "Reload All Tabs"
+    },
+    "desktopTopbar.viewMenu.showHideSidebar": {
+        "notes": "Button to let the user show/hide the sidebar that shows pages",
+        "translation": "Show/Hide Sidebar"
+    },
+    "desktopTopbar.viewMenu.title": {
+        "translation": "View"
+    },
+    "desktopTopbar.viewMenu.togglefullscreen": {
+        "translation": "Toggle Full Screen"
+    },
+    "desktopTopbar.windowMenu.close": {
+        "translation": "Close"
+    },
+    "desktopTopbar.windowMenu.front": {
+        "translation": "Front"
+    },
+    "desktopTopbar.windowMenu.maximize": {
+        "translation": "Maximize"
+    },
+    "desktopTopbar.windowMenu.minimize": {
+        "translation": "Minimize"
+    },
+    "desktopTopbar.windowMenu.showNextTab": {
+        "notes": "Shows the tab to the right of the currently shown one (or loops around)",
+        "translation": "Show Next Tab"
+    },
+    "desktopTopbar.windowMenu.showPreviousTab": {
+        "notes": "Shows the tab to the left of the currently shown one (or loops around)",
+        "translation": "Show Previous Tab"
+    },
+    "desktopTopbar.windowMenu.title": {
+        "translation": "Window"
+    },
+    "desktopTopbar.windowMenu.zoom": {
+        "translation": "Zoom"
+    },
+    "desktopTroubleshooting.showLogs.error.message.mac": {
+        "notes": "When the `Show logs in Finder` fails, we show an error dialog. This message labels the message of that box. The message will be followed by the actual error.",
+        "translation": "Notion encountered an error while trying to show the logs in Finder:"
+    },
+    "desktopTroubleshooting.showLogs.error.message.windows": {
+        "notes": "When the `Show logs in Explorer` fails, we show an error dialog. This message labels the message of that box. The message will be followed by the actual error.",
+        "translation": "Notion encountered an error while trying to show the logs in Explorer:"
+    },
+    "desktopTroubleshooting.showLogs.error.title": {
+        "notes": "When the `Show logs in Finder/Explorer` fails, we show an error dialog. This message labels the title of that box.",
+        "translation": "Showing the logs failed"
+    },
+    "window.loadingError.message": {
+        "notes": "Dialog message shown to the user when there's an error loading a page.",
+        "translation": "Error loading Notion, connect to the internet to get started."
+    },
+    "window.loadingError.reload": {
+        "notes": "Dialog action allowing the user to reload page that previous had a loading error",
+        "translation": "Reload"
+    },
+    "window.tabLoadingError.cancel": {
+        "notes": "Dialog action allowing the user to dismiss the loading error dialog",
+        "translation": "Cancel"
+    },
+    "window.tabMenu.closeOtherTabs": {
+        "notes": "Right-click menu item to close all tabs except for the one clicked",
+        "translation": "Close Other Tabs"
+    },
+    "window.tabMenu.closeTab": {
+        "notes": "Right-click menu item to close a tab",
+        "translation": "Close Tab"
+    },
+    "window.tabMenu.closeTabsToLeft": {
+        "notes": "Right-click menu item to close tabs to the left of the current one",
+        "translation": "Close Tabs to the Left"
+    },
+    "window.tabMenu.closeTabsToRight": {
+        "notes": "Right-click menu item to close tabs to the right of the current one",
+        "translation": "Close Tabs to the Right"
+    },
+    "window.tabMenu.copyLink": {
+        "notes": "Right-click menu item to copy the URL for a Notion page",
+        "translation": "Copy Link"
+    },
+    "window.tabMenu.duplicateTab": {
+        "notes": "Right-click menu item to make a new tab with the same page (i.e. duplicate it)",
+        "translation": "Duplicate Tab"
+    },
+    "window.tabMenu.moveToNewWindow": {
+        "notes": "Right-click menu item to make open a new window with this tab",
+        "translation": "Move Tab to New Window"
+    },
+    "window.tabMenu.refresh": {
+        "notes": "Right-click menu item to refresh a tab's page contents",
+        "translation": "Refresh Tab"
+    }
+}
